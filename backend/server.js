@@ -1,5 +1,6 @@
 import express from 'express'
 import cors from 'cors'
+import 'dotenv/config'
 import reviews from '.api/reviews.route.js'
 
 const app = express()
